@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace aueba.Migrations
 {
-    public partial class Game : Migration
+    public partial class DB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,9 +11,9 @@ namespace aueba.Migrations
                 name: "Char",
                 columns: table => new
                 {
-                    CharID = table.Column<int>(type: "int(11", nullable: false)
+                    CharID = table.Column<int>(type: "int(11)", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    CharName = table.Column<string>(type: "varchar(20", nullable: false)
+                    CharName = table.Column<string>(type: "varchar(20)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8")
                         .Annotation("MySql:Collation", "utf8_unicode_ci"),
                     CharDex = table.Column<int>(type: "int(11)", nullable: false),

@@ -8,8 +8,8 @@ using aueba.Models;
 namespace aueba.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210828014836_Game")]
-    partial class Game
+    [Migration("20210903231006_DB")]
+    partial class DB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -22,7 +22,7 @@ namespace aueba.Migrations
                 {
                     b.Property<int>("CharID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int(11");
+                        .HasColumnType("int(11)");
 
                     b.Property<int>("CharDex")
                         .HasColumnName("CharDex")
@@ -35,7 +35,7 @@ namespace aueba.Migrations
                     b.Property<string>("CharName")
                         .IsRequired()
                         .HasColumnName("CharName")
-                        .HasColumnType("varchar(20")
+                        .HasColumnType("varchar(20)")
                         .HasAnnotation("MySql:CharSet", "utf8")
                         .HasAnnotation("MySql:Collation", "utf8_unicode_ci");
 

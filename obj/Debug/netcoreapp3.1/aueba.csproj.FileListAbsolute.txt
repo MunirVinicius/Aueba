@@ -163,3 +163,8 @@ D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Chars\Delete.cshtml.g
 D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Chars\Details.cshtml.g.cs
 D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Chars\Edit.cshtml.g.cs
 D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Chars\Index.cshtml.g.cs
+D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Char\Create.cshtml.g.cs
+D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Char\Delete.cshtml.g.cs
+D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Char\Details.cshtml.g.cs
+D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Char\Edit.cshtml.g.cs
+D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Char\Index.cshtml.g.cs

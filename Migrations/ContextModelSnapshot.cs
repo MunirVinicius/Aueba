@@ -20,7 +20,7 @@ namespace aueba.Migrations
                 {
                     b.Property<int>("CharID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int(11");
+                        .HasColumnType("int(11)");
 
                     b.Property<int>("CharDex")
                         .HasColumnName("CharDex")
@@ -33,7 +33,7 @@ namespace aueba.Migrations
                     b.Property<string>("CharName")
                         .IsRequired()
                         .HasColumnName("CharName")
-                        .HasColumnType("varchar(20")
+                        .HasColumnType("varchar(20)")
                         .HasAnnotation("MySql:CharSet", "utf8")
                         .HasAnnotation("MySql:Collation", "utf8_unicode_ci");
 

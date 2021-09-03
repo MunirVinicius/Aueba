@@ -16,12 +16,12 @@ namespace aueba.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder){
             modelBuilder.Entity<Char>(entity =>
             {
-                entity.Property(e => e.CharID).HasColumnType("int(11");
+                entity.Property(e => e.CharID).HasColumnType("int(11)");
 
                 entity.Property(e => e.CharName)
                     .IsRequired()
                     .HasColumnName("CharName")
-                    .HasColumnType("varchar(20")
+                    .HasColumnType("varchar(20)")
                     .HasCharSet("utf8")
                     .HasCollation("utf8_unicode_ci");
 

@@ -11,7 +11,7 @@ namespace aueba.Models
 
 
         [Required]
-        [Column(TypeName = "varchar(20")]
+        [Column(TypeName = "varchar(20)")]
         [Display(Name="Name")]
         public string CharName{get; set;}
 
