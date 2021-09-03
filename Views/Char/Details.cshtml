@@ -1,0 +1,36 @@
+@model aueba.Models.Char
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Char</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CharName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CharName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CharDex)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CharDex)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CharHP)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CharHP)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.CharID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

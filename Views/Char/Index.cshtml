@@ -1,0 +1,47 @@
+@model IEnumerable<aueba.Models.Char>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CharName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CharDex)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CharHP)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CharName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CharDex)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CharHP)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CharID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CharID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CharID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
