@@ -53,7 +53,7 @@ namespace aueba.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CharID,CharName,CharDex,CharHP")] Char @char)
+        public async Task<IActionResult> Create([Bind("CharID,CharName,CharDex,CharHP")] Models.Char @char)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace aueba.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CharID,CharName,CharDex,CharHP")] Char @char)
+        public async Task<IActionResult> Edit(int id, [Bind("CharID,CharName,CharDex,CharHP")] Models.Char @char)
         {
             if (id != @char.CharID)
             {
