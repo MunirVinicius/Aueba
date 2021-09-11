@@ -1,8 +1,31 @@
-@{
-    ViewData["Title"] = "Home Page";
+@functions {
+
+    public int gerar(int min, int max){
+        Random r = new Random();
+        return r.Next(min, max);
+    }
+    // function for no reason
+    public string verifyNumber(int num)
+    {
+        if(num % 2 == 0){
+            string mens =  "é par";
+            return mens;
+        }
+        else{
+            string mens = "é impar";
+            return mens;
+        }
+    }
+
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@{
+    int number2 = gerar(0,100);
+    string num = verifyNumber(number2);
+}
+
+<p>O numero @number2  @num</p>
+
+
+
+
