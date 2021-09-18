@@ -169,3 +169,4 @@ D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Char\Details.cshtml.g
 D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Char\Edit.cshtml.g.cs
 D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Char\Index.cshtml.g.cs
 D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Home\Tabuada.cshtml.g.cs
+D:\PROJETOS\.net\aueba\obj\Debug\netcoreapp3.1\Razor\Views\Home\City.cshtml.g.cs

@@ -1,0 +1,13 @@
+@{
+    string[] Cidades = new string [3];
+    Cidades[0] = "São Paulo";
+    Cidades[1] = "Rio de Janeiro";
+    Cidades[2] = "Porto Alegre";
+    <ul>
+        @{
+            foreach(var Cidade in Cidades){
+                <li>@Cidade</li>
+            }
+        }
+    </ul>
+}
