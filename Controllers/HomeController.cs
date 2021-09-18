@@ -23,6 +23,11 @@ namespace aueba.Controllers
             return View();
         }
 
+        public IActionResult Tabuada()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
